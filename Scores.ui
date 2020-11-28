@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Scores</class>
+ <widget class="QWidget" name="Scores">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>449</width>
+    <height>338</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0" colspan="2">
+    <widget class="QPushButton" name="btnReturn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 16pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Powrot</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="labelExample">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>np. Daniel: 721/4, tj. gracz Daniel zgadl 721 w 4 krokach</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QTextBrowser" name="display">
+     <property name="styleSheet">
+      <string notr="true">font-family: 'Calibri';
+font-size: 28pt;
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="labelPlayerName">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Nazwa gracza: Zgadywana liczba/Liczba prob</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

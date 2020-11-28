@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameFinish</class>
+ <widget class="QWidget" name="GameFinish">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>226</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="0" colspan="2">
+    <widget class="QPushButton" name="btnFinish">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 16pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Zakoncz</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="labelGuesseNumber">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Zgadywana liczba: </string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QPushButton" name="btnContinue">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 16pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Powrot do menu</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="guessedNumber">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignRight';
+}</string>
+     </property>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="labelGuessedIn">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Ilosc prob:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="guessedIn">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignRight';
+}</string>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="msg">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 18pt;
+	qproperty-alignment: 'AlignCenter';
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>broken</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

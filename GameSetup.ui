@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameSetup</class>
+ <widget class="QWidget" name="GameSetup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>249</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="labelPlayerName">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Nazwa gracza:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="playerNameInput"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="labelRangeMin">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Zakres (min):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="labelRangeMax">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 14pt;
+	qproperty-alignment: 'AlignLeft';
+}</string>
+     </property>
+     <property name="text">
+      <string>Zakres (max):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="btnContinue">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 16pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Kontynuuj</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QSpinBox" name="rangeMinInput">
+     <property name="maximum">
+      <number>999</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="btnReturn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: #040404;
+	font-family: 'Calibri';
+	font-size: 16pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Powrot</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QSpinBox" name="rangeMaxInput">
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+     <property name="value">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
